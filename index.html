@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark text-white">
+            <div class="container-fluid">
+            <img class="me-2" src="./src/images/favicon.svg" style="height: 50px">
+            <h4 class="my-2">Three Frontend Videos Daily</h4>
+            <!-- <a class="navbar-brand" href="#">Three Frontend Videos Daily</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-0 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Help</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class ="container-fluid text-center">
+            <h1 class="m-5">Three Frontend Videos Daily</h1>
+            <p>Every day, we upload three of the best videos for beginner front-end developers so that they can make good use of their time both on the road and at lunchtime.</p>
+        </section>
+
+        <section class="container-fluid text-center">
+            <h4 class="fw-bold m-5">Today (26.08.22) videos:</h4>
+            <div class="container ">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col d-md-flex">
+                        <div class="card bg-light">
+                            <iframe class="card-img-top" height="200" src="https://www.youtube.com/embed/doympyOFlKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Video #1</h5>
+                                <p class="card-text">What is React js. Overview of opportunities for beginners. Study plan.</p>
+                                <a href="https://www.youtube.com/watch?v=doympyOFlKE&ab_channel=WebDeveloperBlog" class="btn btn-primary mt-auto">Go YouTube</a>
+                            </div>
+                        </div>
+                    </div>
+                       
+                    <div class="col d-md-flex">
+                        <div class="card bg-light">
+                            <iframe class="card-img-top" height="200" src="https://www.youtube.com/embed/Av53VJI-UiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Video #2</h5>
+                                <p class="card-text">JavaScript game from scratch for beginners. VERY SIMPLE!</p>
+                                <a href="https://www.youtube.com/watch?v=Av53VJI-UiE&ab_channel=WebDeveloperBlog" class="btn btn-primary mt-auto">Go YouTube</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-md-flex">
+                        <div class="card bg-light">
+                            <iframe class="card-img-top" height="200" src="https://www.youtube.com/embed/oUCbeRf_xwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Video #3</h5>
+                                <p class="card-text customDiscription">Website Layout - SEO Basics for Beginners.</p>
+                                <a href="https://www.youtube.com/watch?v=UpBc8cui9ZM&ab_channel=UlbiTV" class="btn btn-primary mt-auto">Go YouTube</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid text-center">
+            <h4 class="fw-bold m-5">Previous days:</h4>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        25.08.22
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <section class="container-fluid text-center">
+                            <div class="container ">
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col d-md-flex">
+                                        <div class="card bg-light">
+                                            <iframe class="card-img-top" height="200" src="https://www.youtube.com/embed/UpBc8cui9ZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="card-body d-flex flex-column">
+                                                <h5 class="card-title">Video #1</h5>
+                                                <p class="card-text">We create our own UI Framework. Webpack, StoryBook, NPM publishing.</p>
+                                                <a href="https://www.youtube.com/watch?v=doympyOFlKE&ab_channel=WebDeveloperBlog" class="btn btn-primary mt-auto">Go YouTube</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                       
+                                    <div class="col d-md-flex">
+                                        <div class="card bg-light">
+                                            <iframe class="card-img-top" height="200" src="https://www.youtube.com/embed/2AWcWODemB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="card-body d-flex flex-column">
+                                                <h5 class="card-title">Video #2</h5>
+                                                <p class="card-text">How to successfully pass an interview for a JUNIOR developer.</p>
+                                                <a href="https://www.youtube.com/watch?v=2AWcWODemB8&ab_channel=UlbiTV" class="btn btn-primary mt-auto">Go YouTube</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col d-md-flex">
+                                        <div class="card bg-light">
+                                            <iframe class="card-img-top" height="200" src="https://www.youtube.com/embed/y2emL1fMRyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="card-body d-flex flex-column">
+                                                <h5 class="card-title">Video #3</h5>
+                                                <p class="card-text customDiscription">JavaScript Testing from A to Z (Jest, React Testing Library, e2e, screenshot)</p>
+                                                <a href="https://www.youtube.com/watch?v=y2emL1fMRyY&ab_channel=UlbiTV" class="btn btn-primary mt-auto">Go YouTube</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        24.08.22
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <section class="container-fluid text-center">
+                            <div class="container ">
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col d-md-flex">
+                                        <div class="card bg-light">
+                                            <iframe class="card-img-top" height="200" src="https://www.youtube.com/embed/doympyOFlKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="card-body d-flex flex-column">
+                                                <h5 class="card-title">Video #1</h5>
+                                                <p class="card-text">What is React js. Overview of opportunities for beginners. Study plan.</p>
+                                                <a href="https://www.youtube.com/watch?v=doympyOFlKE&ab_channel=WebDeveloperBlog" class="btn btn-primary mt-auto">Go YouTube</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                       
+                                    <div class="col d-md-flex">
+                                        <div class="card bg-light">
+                                            <iframe class="card-img-top" height="200" src="https://www.youtube.com/embed/Av53VJI-UiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="card-body d-flex flex-column">
+                                                <h5 class="card-title">Video #2</h5>
+                                                <p class="card-text">JavaScript game from scratch for beginners. VERY SIMPLE!</p>
+                                                <a href="https://www.youtube.com/watch?v=Av53VJI-UiE&ab_channel=WebDeveloperBlog" class="btn btn-primary mt-auto">Go YouTube</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col d-md-flex">
+                                        <div class="card bg-light">
+                                            <iframe class="card-img-top" height="200" src="https://www.youtube.com/embed/oUCbeRf_xwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="card-body d-flex flex-column">
+                                                <h5 class="card-title">Video #3</h5>
+                                                <p class="card-text customDiscription">Website Layout - SEO Basics for Beginners.</p>
+                                                <a href="https://www.youtube.com/watch?v=oUCbeRf_xwA&ab_channel=WebDeveloperBlog" class="btn btn-primary mt-auto">Go YouTube</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        23.08.22
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <section class="container-fluid text-center">
+                            <div class="container ">
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col d-md-flex">
+                                        <div class="card bg-light">
+                                            <iframe class="card-img-top" height="200" src="https://www.youtube.com/embed/doympyOFlKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="card-body d-flex flex-column">
+                                                <h5 class="card-title">Video #1</h5>
+                                                <p class="card-text">What is React js. Overview of opportunities for beginners. Study plan.</p>
+                                                <a href="https://www.youtube.com/watch?v=doympyOFlKE&ab_channel=WebDeveloperBlog" class="btn btn-primary mt-auto">Go YouTube</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                       
+                                    <div class="col d-md-flex">
+                                        <div class="card bg-light">
+                                            <iframe class="card-img-top" height="200" src="https://www.youtube.com/embed/Av53VJI-UiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="card-body d-flex flex-column">
+                                                <h5 class="card-title">Video #2</h5>
+                                                <p class="card-text">JavaScript game from scratch for beginners. VERY SIMPLE!</p>
+                                                <a href="https://www.youtube.com/watch?v=Av53VJI-UiE&ab_channel=WebDeveloperBlog" class="btn btn-primary mt-auto">Go YouTube</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col d-md-flex">
+                                        <div class="card bg-light">
+                                            <iframe class="card-img-top" height="200" src="https://www.youtube.com/embed/oUCbeRf_xwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <div class="card-body d-flex flex-column">
+                                                <h5 class="card-title">Video #3</h5>
+                                                <p class="card-text customDiscription">Website Layout - SEO Basics for Beginners.</p>
+                                                <a href="https://www.youtube.com/watch?v=oUCbeRf_xwA&ab_channel=WebDeveloperBlog" class="btn btn-primary mt-auto">Go YouTube</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+     
+    </main>
+
+    <footer>
+        <section class="container-fluid bg-dark text-white mt-5 px-5 py-4">
+            <div class="row">
+                <div class="col-md-3 d-flex align-items-center">
+                    <img class="me-2" src="./src/images/favicon.svg" style="height: 50px">
+                    <h4 class="my-2">Three Frontend <br> Videos Daily</h4>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-3">
+                    <p class="my-2">Developed with:</p>
+                    <div class="d-flex align-items-center my-2">
+                        <img class="me-2" src="./src/images/Bootstrap_logo.png" style="width: 20px">
+                        <p class="my-0">Bootstrap</p>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <img class="me-2" src="./src/images/React.png" style="width: 20px">
+                        <p class="my-0">React</p>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <img class="me-2" src="./src/images/npm-logo.png" style="width: 20px">
+                        <p class="my-0">NPM</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <p class="my-2">For feedback:</p>
+                    <p class="my-2">example@email.com</p>
+                    <p class="my-2">Developer:</p>
+                    <p class="my-2">©MR.Drog 2022</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
